@@ -20,7 +20,7 @@
             <div class="flex p-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."> 
                 <a class="mr-12 text-5xl text-white font-black" href="">Fruitify</a>
                 <div class="my-auto">
-                    <button class="pl-8 md:pl-64 lg:hidden">
+                    <button class="pl-8 md:pl-64 lg:hidden" onclick="menuClick()">
                         <svg class="w-10 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                           </svg>
@@ -45,7 +45,7 @@
                   </a>
 
             </div>
-            <div class=" hidden relative flex justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... w-48 h-80 pt-8 rounded lg:hidden">
+            <div class=" hidden relative flex justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... w-48 h-80 pt-8 rounded lg:hidden" id="mobileMenu">
                 <ul class="absolute flex-col  font-bold text-white  ">
                     <li class="pr-5 mb-6"><a class=" text-gray-200 hover:text-white   " href="">Home</a></li>
                     <li class="pr-5 mb-6"><a class=" text-gray-200 hover:text-white  " href="">About</a></li>
@@ -1254,8 +1254,12 @@
            
 
           </div>
+          <div class="text-center text-gray-600  border-t border-gray-500 pt-4">
+            All Rights Reserved ❤️
+          </div>
 
          </footer>
+         <script src="./main.js"></script>
         
         
     </body>
